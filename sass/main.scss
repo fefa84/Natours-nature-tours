@@ -1,0 +1,36 @@
+@import "abstracts/__functions";
+@import "abstracts/__mixins.scss";
+@import "abstracts/__variables";
+
+@import "base/__animations.scss";
+@import "base/__base.scss";
+@import "base/__typography.scss";
+@import "base/__utilities.scss";
+
+@import "components/__button.scss";
+
+@import "layout/__header.scss";
+
+@import "pages/__home.scss";
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    //This defines what 1 rem is otherwise fonts would be in typography
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+

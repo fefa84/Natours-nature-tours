@@ -1,0 +1,24 @@
+{
+  "name": "natours-nature-tours",
+  "version": "1.0.0",
+  "description": "Website of nature tours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fefa84/Natours-nature-tours.git"
+  },
+  "author": "Ewa Mitra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fefa84/Natours-nature-tours/issues"
+  },
+  "homepage": "https://github.com/fefa84/Natours-nature-tours#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}
